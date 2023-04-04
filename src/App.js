@@ -4,6 +4,7 @@ import ButtonAlert from './Profile/ButtonAlert';
 import Profile from './Profile/Profile';
 
 function App() {
+  //create the handleName func:
   const handleName=name=> alert(name)
   return (
     <div className="App">
@@ -13,6 +14,7 @@ function App() {
     <Profile bio="web development learner" />
     <Profile profession="student" />
     <ButtonAlert handleName={handleName} name="Nawress"/>
+   
     </div>
   );
 }
